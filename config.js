@@ -6,9 +6,9 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "OcgSGSrT#M9Ufp2FcGtHTT_XvD-5IXquuJf31VfcyP7raA0gABiE",
+    SESSION_ID: process.env.SESSION_ID || "OMRkSK6Z#ZWcHgvyT4rcKuWEDyC26wcamuuLqcIYIg_E-oDD_vRk",
     CAPTION: process.env.CAPTION || "POWERED BY Hassan",
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
     MODE: process.env.MODE || "public",
     AUTO_VOICE: process.env.AUTO_VOICE || "false",
