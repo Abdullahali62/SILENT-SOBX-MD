@@ -6,9 +6,9 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "OMRkSK6Z#ZWcHgvyT4rcKuWEDyC26wcamuuLqcIYIg_E-oDD_vRk",
+    SESSION_ID: process.env.SESSION_ID || "XIZxwRZA#QNuAf0ROhbEiJnhtDsSY1sivN12BYnWoZhQWa7UQ1R0",
     CAPTION: process.env.CAPTION || "POWERED BY Hassan",
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
     MODE: process.env.MODE || "public",
     AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -19,8 +19,8 @@ module.exports = {
     ANTI_LINK: process.env.ANTI_LINK || "true",
     ANTI_BAD: process.env.ANTI_BAD || "false",
     PREFIX: process.env.PREFIX || ".",
-    FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
-    AUTO_REACT: process.env.AUTO_REACT || "true",
+    FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+    AUTO_REACT: process.env.AUTO_REACT || "false",
     HEART_REACT: process.env.HEART_REACT || "true",
     OWNER_REACT: process.env.OWNER_REACT || "true",
     BOT_NAME: process.env.BOT_NAME || "➺Hassan૨࿐",
